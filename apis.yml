@@ -1,8 +1,24 @@
 aid: bible-chat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bible-chat.png
 name: Bible Chat
-description: 'Bible Chat is a company surfaced as a portfolio company of true-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Bible Chat is a faith-focused consumer mobile application built by Soulstream, a Romanian
+  startup founded in 2023 by Laurentiu Balasa and Marius Iordache, that pairs AI-guided conversation with
+  Scripture to help people study the Bible and grow spiritually. Features include topical Bible verses,
+  guided Bible lessons, a faith Q&A assistant, verse of the day, a Bible glossary, and podcast and blog
+  content, delivered through iOS and Android apps. It is marketed as "the #1 Faith App in the World."
+  This profile was surfaced as a portfolio company of True Ventures and is maintained in the API Evangelist
+  network; the company publishes a consumer product and does not currently expose a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/bible-chat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Bible
+- Christianity
+- Faith
+- AI
+- Mobile App
+- Spirituality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://thebiblechat.com/
+- type: Blog
+  url: https://thebiblechat.com/blog/
+- type: Support
+  url: https://thebiblechat.com/contact
+- type: TermsOfService
+  url: https://thebiblechat.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://thebiblechat.com/privacy-policy/
+- type: DomainSecurity
+  url: security/bible-chat-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
